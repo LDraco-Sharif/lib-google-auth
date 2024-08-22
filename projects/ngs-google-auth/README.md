@@ -1,6 +1,13 @@
 # NgsGoogleAuth
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
+This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0. This is a basic library for creating a Google Sign-In button in your application. While simple in nature, it gives you control over the data being sent from Google. Mainly, you can decide return type for your data and handle logic accordingly.
+
+## Documentation
+Install this library with `npm install ngs-google-auth`.
+Then in your preferred component, import it with `import {NgsGoogleAuthComponent} from "ngs-google-auth";`.
+Finally, in the HTML template of the component, add `<ngs-google-auth [clientId]="'CLient ID'" [nonce]="'nonce'" [redirectUri]="'Redirect URI'"></ngs-google-auth>` where you want to see this button.
+
+There are some additional functionalities present in the library that I will add in the documentation later.
 
 ## Code scaffolding
 
